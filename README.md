@@ -11,7 +11,7 @@ User Location: Display user's current location on the map.
 State Management: Efficiently managed with GetX.
 Prerequisites
 Flutter SDK: 3.5.4 or higher.
-Google Maps API key (already included in strings.xml).
+Google Maps API key (Need to included in strings.xml).
 Getting Started
 1. Clone the Repository
    bash
@@ -25,7 +25,7 @@ Getting Started
 3. Add Google Maps API Key
    Ensure your Google Maps API key is set in the following file:
 
-android/app/src/main/res/values/strings.xml:
+Create a file on this android/app/src/main/res/values/strings.xml:
 xml
 Copy code
 <?xml version="1.0" encoding="utf-8"?>
@@ -60,6 +60,22 @@ Animate Do: Marker animations.
 Geolocator: User location tracking.
 Screenshots
 Include relevant screenshots of the app UI.
+# Map Animation App
+
+## Description
+A Flutter application showcasing interactive map features, animations, and categorized marker filtering.
+
+## Features
+- Map with categorized markers (cycle, shopping, restaurant).
+- Marker animations and smooth transitions.
+- Dark mode support.
+- User location display.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/m1narul/Map-Animation-App.git
+   cd Map-Animation-App
 
 License
 This project is licensed under the MIT License.
