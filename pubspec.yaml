@@ -1,0 +1,38 @@
+name: map_with_animation
+description: A Flutter application demonstrating maps, animations, and GetX state management.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.10.0
+  get: ^4.6.5 # For state management
+  flutter_svg: ^2.0.7 # For handling SVG files
+  animate_do: ^3.0.0 # For animations like bounce effects
+  geolocator: ^13.0.2 # To fetch user's current location
+  location: ^7.0.1 # To fetch location
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"  # Path to your app launcher icon
+flutter:
+  uses-material-design: true
+
+  # Add assets
+  assets:
+    - assets/icons/
+    - assets/map_styles/light_mode.json
+    - assets/map_styles/dark_mode.json
